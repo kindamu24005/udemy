@@ -40,4 +40,4 @@ if __name__ == '__main__':
 
     app.config['port'] = port
 
-    app.run(host='0.0.0.0', port=port, threaded=True, debug=True)
+    app.run(host='0.0.0.0', port=port, threaded=True)
